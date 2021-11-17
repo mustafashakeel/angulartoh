@@ -1,7 +1,16 @@
 <div class="title">
   <h2>Welcome to {{title}}</h2>
 
+  <nav>
+    <a routerLink='/dashboard'>Dashboard</a><br />
+    <a routerLink='/heroes'>Heroes</a>
+  </nav>
+
 </div>
 
-<app-heroes></app-heroes>
+<!-- <app-heroes></app-heroes> -->
+
+<router-outlet></router-outlet>
+
+
 <app-messeges></app-messeges>
